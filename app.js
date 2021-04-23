@@ -13,10 +13,10 @@ function textToAudio(){
 
     window.speechSynthesis.speak(speech);
 
- setTimeout(Clear, 2000);
+//  setTimeout(Clear, 2000);
     
 }
 
-function Clear(){
-    document.getElementById('text').value="";
-}
+// function Clear(){
+//     document.getElementById('text').value="";
+// }
